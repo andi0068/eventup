@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+hr {
+  @apply border-neutral-50;
+}
+strong {
+  @apply font-medium lg:font-semibold;
+}
+
+.desktop-grid {
+  @apply lg:grid lg:grid-cols-12 lg:gap-x-5;
+}
